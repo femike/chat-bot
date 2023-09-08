@@ -1,14 +1,12 @@
 const fs = require('fs');
 const http = require('http');
 const httpProxy = require('http-proxy');
-const cors = require('cors');
 require('dotenv').config();
 
 const PORT = process.env.PORT || 8080
 
 const origins = [
-  'https://dariabatiuk.github.io',
-  'https://chat-bot-sandy-six.vercel.app'
+  'https://femike.github.io'
 ]
 
 // Create a proxy server
