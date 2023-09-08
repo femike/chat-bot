@@ -18,8 +18,7 @@ const createChatLi = (message, className) =>{
 }
 
 const generateResponse = (IncomingChatLi) => {
-	const API_URL = "http://localhost:8080";
-	// const API_URL = "https://chatbot-gpt-2553bc3b5923.herokuapp.com";
+	const API_URL = "https://morning-beyond-74286-8a06753bcbc6.herokuapp.com";
 	const messageElement = IncomingChatLi.querySelector("p")
 
 	const requestOptions = {
