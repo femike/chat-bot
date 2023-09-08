@@ -25,7 +25,7 @@ const proxyOptions = {
 const headers = {
   'Access-Control-Request-Method': '*',
   'Access-Control-Request-Methods': 'POST, OPTIONS',
-  'Access-Control-Allow-Headers': 'Origin'
+  'Access-Control-Allow-Headers': '*'
 }
 
 // Create server
